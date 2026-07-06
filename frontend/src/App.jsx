@@ -136,7 +136,7 @@ export default function App() {
             </div>
             <div>
               <h1 className="text-xl font-bold tracking-tight text-slate-900">Công việc của tôi</h1>
-              <p className="text-xs text-slate-500 mt-0.5">Todo List App - Intern Developer Test</p>
+              <p className="text-xs text-slate-500 mt-0.5">Todo List App</p>
             </div>
           </div>
           <div className="self-start sm:self-center bg-slate-100 border border-slate-200/60 px-3 py-1.5 rounded-xl text-xs font-semibold text-slate-600">

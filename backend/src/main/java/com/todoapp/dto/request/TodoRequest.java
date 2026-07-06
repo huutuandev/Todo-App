@@ -1,7 +1,6 @@
-package com.todoapp.dto;
+package com.todoapp.dto.request;
 
 import com.todoapp.enums.Priority;
-import com.todoapp.model.Todo;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
 import lombok.AllArgsConstructor;

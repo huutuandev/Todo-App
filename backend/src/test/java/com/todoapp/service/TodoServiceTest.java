@@ -1,12 +1,13 @@
 package com.todoapp.service;
 
-import com.todoapp.dto.PagedResponse;
-import com.todoapp.dto.TodoRequest;
-import com.todoapp.dto.TodoResponse;
+import com.todoapp.dto.response.PagedResponse;
+import com.todoapp.dto.request.TodoRequest;
+import com.todoapp.dto.response.TodoResponse;
 import com.todoapp.enums.Priority;
 import com.todoapp.exception.ResourceNotFoundException;
 import com.todoapp.model.Todo;
 import com.todoapp.repository.TodoRepository;
+import com.todoapp.service.impl.TodoServiceImpl;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -34,7 +35,7 @@ class TodoServiceTest {
     private TodoRepository todoRepository;
 
     @InjectMocks
-    private TodoService todoService;
+    private TodoServiceImpl todoService;
 
     private Todo sampleTodo;
 

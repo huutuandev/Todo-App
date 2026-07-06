@@ -1,7 +1,7 @@
 package com.todoapp.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.todoapp.dto.TodoRequest;
+import com.todoapp.dto.request.TodoRequest;
 import com.todoapp.enums.Priority;
 import com.todoapp.model.Todo;
 import com.todoapp.repository.TodoRepository;

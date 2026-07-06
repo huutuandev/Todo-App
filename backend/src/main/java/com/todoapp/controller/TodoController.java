@@ -1,8 +1,8 @@
 package com.todoapp.controller;
 
-import com.todoapp.dto.PagedResponse;
-import com.todoapp.dto.TodoRequest;
-import com.todoapp.dto.TodoResponse;
+import com.todoapp.dto.response.PagedResponse;
+import com.todoapp.dto.request.TodoRequest;
+import com.todoapp.dto.response.TodoResponse;
 import com.todoapp.service.TodoService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;

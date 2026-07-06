@@ -1,4 +1,4 @@
-package com.todoapp.dto;
+package com.todoapp.dto.response;
 
 import com.todoapp.enums.Priority;
 import com.todoapp.model.Todo;

@@ -1,0 +1,23 @@
+/* Custom component animations or overrides can go here */
+@keyframes strike {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+.animate-strike {
+  position: relative;
+}
+
+.animate-strike::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  height: 2px;
+  background-color: currentColor;
+  animation: strike 0.2s ease-out forwards;
+}

@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "https://todo-app-c9qn.onrender.com/api/:path*"
+    }
+  ]
+}

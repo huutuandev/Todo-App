@@ -7,7 +7,7 @@ Bài test Intern Developer. Ứng dụng CRUD quản lý công việc với tìm
 | Layer    | Công nghệ |
 |----------|-----------|
 | Backend  | Java 17, Spring Boot 3, Spring Data JPA, Spring Validation, H2 Database |
-| Frontend | React 18, Vite, CSS thuần (không dùng UI framework để dễ tùy biến) |
+| Frontend | React 18, Vite, Tailwind CSS |
 | Testing  | JUnit 5, Mockito, MockMvc |
 | Khác     | Docker, Docker Compose |
 
@@ -39,6 +39,7 @@ todo-app/
 │   └── src/
 │       ├── api/            # Gọi API backend
 │       ├── components/     # TodoForm, TodoList, TodoItem, FilterBar, Pagination
+|       ├── hook/
 │       └── App.jsx
 └── docker-compose.yml
 ```
